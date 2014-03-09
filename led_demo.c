@@ -30,7 +30,7 @@ int main(int argc, char** argv)
 	int toggle = 0;
 	
 	//Using sysfs we need to write "38" to /sys/class/gpio/export
-	//This will create the folder /sys/class/gpio/gpio37
+	//This will create the folder /sys/class/gpio/gpio38
 	if ((fp = fopen("/sys/class/gpio/export", "ab")) == NULL)
 		{
 			printf("Cannot open export file.\n");
